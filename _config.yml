@@ -84,9 +84,9 @@ minima:
       icon: x-twitter
       url: "https://x.com/Naveen5Reddy"
   exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
+    - Gemfile
+    - Gemfile.lock
+    - README.md
 #
 #   Hide syndication feed subscription link.
 #     RSS / Atom feed link is always rendered as the last item of social-links
