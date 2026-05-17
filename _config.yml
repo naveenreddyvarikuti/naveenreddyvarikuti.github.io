@@ -84,6 +84,9 @@ minima:
     - title: Twitter
       icon: x-twitter
       url: "https://x.com/Naveen5Reddy"
+    - title: LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/in/naveen-reddy-034862190"
   exclude:
     - Gemfile
     - Gemfile.lock
