@@ -78,9 +78,6 @@ minima:
 #       * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
 #       * url      Full URL of social profile.
   social_links:
-    - title: Github
-      icon: github
-      url: "https://github.com/Naveen-Reddy55"
     - title: Twitter
       icon: x-twitter
       url: "https://x.com/Naveen5Reddy"
@@ -90,6 +87,9 @@ minima:
     - title: Substack
       icon: rss-square
       url: "https://substack.com/@naveenreddyvarikuti"
+    - title: Github
+      icon: github
+      url: "https://github.com/Naveen-Reddy55"
   exclude:
     - Gemfile
     - Gemfile.lock
