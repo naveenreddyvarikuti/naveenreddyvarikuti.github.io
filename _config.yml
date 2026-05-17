@@ -10,7 +10,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key. If
 #   you wish to omit the line-break after the end of text, use `>-` instead.
 description: >
-  AI Researcher writing about LLMs and RL for language models.
+  Diving deep into the research side of LLMs. Writing what I wished existed when I was learning, from transformers to RL for language models.
 
 google_analytics: G-754RVBXRG6
 
