@@ -88,7 +88,7 @@ minima:
       icon: linkedin
       url: "https://www.linkedin.com/in/naveen-reddy-034862190"
     - title: Substack
-      icon: rss
+      icon: rss-square
       url: "https://substack.com/@naveenreddyvarikuti"
   exclude:
     - Gemfile
