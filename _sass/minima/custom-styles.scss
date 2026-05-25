@@ -1,2 +1,126 @@
-// Placeholder to allow defining custom styles that override everything else.
-// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+// Typography, spacing and layout overrides for blog posts
+// Target `.post-content` (from _layouts/post.html) and the global `.wrapper`.
+
+// Base sizing
+:root {
+	font-size: 100%;
+}
+
+// Post content container: comfortable reading width and serif body font
+.post-content {
+	max-width: 780px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Charter", "Georgia", "Source Serif 4", serif;
+	font-size: 20px;
+	line-height: 1.85;
+	color: #222;
+}
+
+// Paragraph spacing
+.post-content p {
+	margin-bottom: 1.3rem;
+}
+
+// Headings: strong hierarchy and generous spacing
+.post-content h1 {
+	font-size: 3rem;
+	line-height: 1.1;
+	margin: 1.6rem 0 1rem;
+}
+.post-content h2 {
+	font-size: 2.2rem;
+	line-height: 1.15;
+	margin: 2rem 0 0.8rem;
+}
+.post-content h3 {
+	font-size: 1.6rem;
+	line-height: 1.2;
+	margin: 1.6rem 0 0.6rem;
+}
+
+// Extra whitespace before section headings
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+	padding-top: 0.6rem;
+}
+
+// Code blocks and inline code readability
+.post-content pre,
+.post-content code {
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace;
+	font-size: 0.95rem;
+	line-height: 1.5;
+}
+
+// Figures and images
+.post-content figure {
+	margin: 2rem auto;
+	max-width: 100%;
+}
+
+// Ensure wrapper has comfortable horizontal padding on small screens
+.wrapper {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+// Utility: slightly increase list spacing
+.post-content ul,
+.post-content ol {
+	margin-bottom: 1rem;
+}
+
+// Make callouts slightly prominent
+blockquote {
+	border-left: 4px solid rgba(0,0,0,0.08);
+	padding-left: 1rem;
+	color: #333;
+	background: rgba(0,0,0,0.02);
+}
+
+// Responsive tweak: reduce font-size slightly on very small screens
+@media (max-width: 420px) {
+	.post-content {
+		font-size: 18px;
+	}
+}
+
+/* Footer: compact three-column layout (author / bio / links) */
+.site-footer {
+	padding: 0.25rem 0;
+	font-size: 0.9rem;
+	border-top: 1px solid rgba(0,0,0,0.04);
+	line-height: 1.15;
+}
+.footer-grid {
+	display: flex;
+	gap: 1.5rem;
+	align-items: center;
+	width: 100%;
+}
+.footer-col { display:flex; align-items:flex-start; }
+
+.author-col { flex: 0 0 140px; }
+.author-col .contact-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.12rem; align-items: flex-start; font-size: 0.95rem; }
+.author-col .p-name { font-weight: 600; }
+
+.bio-col { flex: 1 1 auto; color: #555; min-width: 520px; }
+.bio-col p { margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.25; }
+
+.links-col { flex: 0 0 260px; display:flex; justify-content:flex-end; }
+.social-links { display:flex; gap: 0.6rem; align-items:center; white-space:nowrap; overflow: hidden; }
+.site-footer img, .site-footer svg { max-height: 0.95rem; }
+
+@media (max-width: 1200px) {
+	.bio-col { min-width: 360px; }
+	.links-col { flex: 0 0 180px; }
+}
+
+@media (max-width: 740px) {
+	.footer-grid { flex-direction: column; align-items: flex-start; gap: 0.6rem; }
+	.author-col, .links-col { width: 100%; }
+	.links-col { justify-content: flex-start; }
+	.bio-col { min-width: 100%; white-space: normal; }
+}
