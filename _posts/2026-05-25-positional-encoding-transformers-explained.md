@@ -100,6 +100,6 @@ does not exist in the computation.
 Without a mechanism to inject position, the Transformer is a bag of words
 model. It knows which words are present. It does not know where they are.
 
-This is the problem that positional encodings exist to solve.
+This is the problem that positional encodings exist to solve .
 
 
