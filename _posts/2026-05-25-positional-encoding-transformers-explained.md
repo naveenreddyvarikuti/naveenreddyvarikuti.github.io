@@ -9,15 +9,14 @@ excerpt: "Language models process text as a sequence of tokens. While token embe
 
 Language models process text as a sequence of tokens. While token embeddings can represent the meaning of individual words, they do not inherently represent where those words appear in the sequence.
 
-For example, the words in:
+For example, consider these two sentences:
 
-> Dog bites man
+<div class="example-pair">
+  <div class="example-box">Dog bites man</div>
+  <div class="example-box">Man bites dog</div>
+</div>
 
-and
-
-> Man bites dog
-
-are identical, but their meanings are completely different because the order of the words is different.
+The words are identical but their meanings are completely different because the order changed.
 
 Positional encodings are techniques that allow Transformer models to incorporate information about token positions. They help the model distinguish between different token orders and reason about relationships between tokens across a sequence.
 
@@ -139,7 +138,7 @@ But we will face an issue with this approach.
 
 ### The Scale Problem
 
-Embedding values typically live in the range of -1 to +1. These are small,
+Embedding values typically live in the range of -1 to +1 (But the range of values can vary relatively to higher number). These are small,
 carefully learned numbers that encode the meaning of each token.
 
 Now consider what happens at position 500. We add 500 to every dimension of
@@ -498,4 +497,7 @@ Keep the multi frequency structure. Make it smooth.
 
 This is exactly what sinusoidal positional encoding does.Lets discuss about this in subsequent next blog!
 
+**Part 2** of this series covers sinusoidal positional encoding and
+Rotary Position Embeddings (RoPE) the method used in nearly every modern
+large language model including LLaMA, Mistral, and Gemma.
 
