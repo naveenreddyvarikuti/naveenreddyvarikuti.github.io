@@ -497,7 +497,7 @@ Keep the multi frequency structure. Make it smooth.
 
 This is exactly what sinusoidal positional encoding does.Lets discuss about this in subsequent next blog!
 
-**Part 2** of this series covers sinusoidal positional encoding and
+[Part 2](https://naveenreddyvarikuti.github.io/2026/06/06/positional-encoding-sinusoidal-and-rope.html) of this series covers sinusoidal positional encoding and
 Rotary Position Embeddings (RoPE) the method used in nearly every modern
 large language model including LLaMA, Mistral, and Gemma.
 
