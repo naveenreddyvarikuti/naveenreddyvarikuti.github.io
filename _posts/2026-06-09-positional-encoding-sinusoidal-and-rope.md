@@ -1202,3 +1202,22 @@ is exactly what modern long context research works to mitigate the issue.
 But for the sequence lengths that today's models are trained on, RoPE is
 clean, efficient, and effective. That is why it used inside almost every
 modern large language model, from LLaMA to Mistral to Gemma to Phi.
+
+## References
+
+1. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez,
+   A. N., Kaiser, L., Polosukhin, I. (2017). *Attention Is All You Need.*
+   [arXiv:1706.03762](https://arxiv.org/pdf/1706.03762)
+
+2. Su, J., Lu, Y., Pan, S., Murtadha, A., Wen, B., Liu, Y. (2021).
+   *RoFormer: Enhanced Transformer with Rotary Position Embedding.*
+   [arXiv:2104.09864](https://arxiv.org/abs/2104.09864)
+
+3. Biderman, S., Black, S., Foster, C., Gao, L., Hallahan, E., He, H.,
+   Wang, B., Wang, P. (2021). *Rotary Embeddings: A Relative Revolution.*
+   EleutherAI Blog.
+   [blog.eleuther.ai/rotary-embeddings](https://blog.eleuther.ai/rotary-embeddings/)
+
+4. Fleetwood. *You could have designed state of the art positional
+   encoding.*
+   [fleetwood.dev/posts/you-could-have-designed-SOTA-positional-encoding](https://fleetwood.dev/posts/you-could-have-designed-SOTA-positional-encoding)

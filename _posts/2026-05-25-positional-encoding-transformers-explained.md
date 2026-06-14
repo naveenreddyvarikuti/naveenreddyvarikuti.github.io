@@ -499,3 +499,21 @@ This is exactly what sinusoidal positional encoding does.Lets discuss about this
 Rotary Position Embeddings (RoPE) the method used in nearly every modern
 large language model including LLaMA, Mistral, and Gemma.
 
+## References
+
+1. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez,
+   A. N., Kaiser, L., Polosukhin, I. (2017). *Attention Is All You Need.*
+   [arXiv:1706.03762](https://arxiv.org/pdf/1706.03762)
+
+2. Su, J., Lu, Y., Pan, S., Murtadha, A., Wen, B., Liu, Y. (2021).
+   *RoFormer: Enhanced Transformer with Rotary Position Embedding.*
+   [arXiv:2104.09864](https://arxiv.org/abs/2104.09864)
+
+3. Biderman, S., Black, S., Foster, C., Gao, L., Hallahan, E., He, H.,
+   Wang, B., Wang, P. (2021). *Rotary Embeddings: A Relative Revolution.*
+   EleutherAI Blog.
+   [blog.eleuther.ai/rotary-embeddings](https://blog.eleuther.ai/rotary-embeddings/)
+
+4. Fleetwood. *You could have designed state of the art positional
+   encoding.*
+   [fleetwood.dev/posts/you-could-have-designed-SOTA-positional-encoding](https://fleetwood.dev/posts/you-could-have-designed-SOTA-positional-encoding)
