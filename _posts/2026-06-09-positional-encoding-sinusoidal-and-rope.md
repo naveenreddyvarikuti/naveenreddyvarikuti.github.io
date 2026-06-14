@@ -1097,7 +1097,7 @@ Now push the gap much further. Not 34 tokens. Try 32000 tokens.
 Even the slow pairs have a small but nonzero frequency. Multiply it by a
 huge gap and the angle is no longer small:
 
-$$0.0001 \cdot 32000 \approx 3.2 \text{ radians} \approx 231^\circ$$
+$$0.0001 \cdot 32000 \approx 3.2 \text{ radians} \approx 183^\circ$$
 
 Now the slow pair has rotated past 180 degrees. And past 180 degrees, the
 cosine is negative.
@@ -1135,7 +1135,7 @@ indistinguishable in that pair. This is called aliasing.
 
 ### Aliasing in Each Band
 
-Fast pairs alias quickly. With frequency near 1, the gate repeats about
+Fast pairs alias quickly. With frequency near 1, the gap repeats about
 every 6 tokens. Gap 1 and gap 7 look almost the same to a fast pair.
 
 This may not seem good, but it is fine. Fast pairs are only meant for short range

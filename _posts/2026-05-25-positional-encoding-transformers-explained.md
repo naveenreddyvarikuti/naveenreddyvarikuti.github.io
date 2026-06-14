@@ -178,8 +178,6 @@ position 2 is 1. The absolute difference between position 500 and position
 501 is also 1.
 
 But relative to the position values themselves, these gaps are very different.
-Going from 1 to 2 is a 100% increase. Going from 500 to 501 is a 0.2%
-increase.
 
 The model cannot learn a consistent notion of "subsequent positions" because the
 same gap of absolute positional difference of 1 looks completely different depending on where in the sequence
